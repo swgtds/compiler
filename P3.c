@@ -2,7 +2,7 @@
 
 #include<stdio.h> 
 #include<string.h>
-void main()
+int main()
 {
 
 	int flag=0,i;
@@ -39,7 +39,7 @@ char str[80];
 		printf("keyword");
 	else
  		printf("Not Keyword");
-	
+	return 0;	
 }
 
 

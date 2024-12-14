@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 	char reg[20];
  int q[20][3]={0},i=0,j=1,len,a,b;

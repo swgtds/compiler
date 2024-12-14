@@ -2,7 +2,7 @@
 #include<stdio.h> 
 #include<ctype.h>
 
-void main()
+int main()
 {
 
 	int flag=1,i=0;
@@ -33,7 +33,7 @@ else{
 		printf("Identifier");
 	else
  		printf("Not identifier");
-	
+	return 0;
 }
 
 
