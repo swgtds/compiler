@@ -13,7 +13,7 @@ int main()
 		
 	if( isalpha(str[0]) || str[0]== '_'){
     while(str[i]!='\0'){
-			if( isalpha(str[i]) || isdigit(str[i] ) || str[0]== '_' ) 
+			if( isalpha(str[i]) || isdigit(str[i] ) || str[i]== '_' ) 
 			{
 				i++;
 			}
